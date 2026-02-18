@@ -1,7 +1,7 @@
 //Approach : brute force approach : check for all the subarrays and count the frequency of odd and even numbers and if they are equal then update the answer
 //T.C : O(n^2)
 //S.C : O(n)
-
+// https://leetcode.com/problems/longest-balanced-subarray-i/?envType=daily-question&envId=2026-02-20
 class Solution {
 public:
     int longestBalanced(vector<int>& nums) {

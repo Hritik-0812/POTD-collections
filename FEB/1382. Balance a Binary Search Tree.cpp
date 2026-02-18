@@ -14,6 +14,8 @@
 //Approach : store the nodes in a vector using inorder traversal(sorted fashion ) and then build the tree using the vector(using concept of merge sort)
 //T.C : O(2n)
 //S.C : O(2n)
+
+// https://leetcode.com/problems/balance-a-binary-search-tree/?envType=daily-question&envId=2026-02-22
 class Solution {
 public:
     void inorder(vector<TreeNode*>&nodes,TreeNode* root){
